@@ -2,6 +2,7 @@
 ##############################################
 library(caret)
 
+#remember to set the working directory accordingly to your own
 setwd("~/Estatistica_R/ipomoea")
 
 ipo <- read.csv("ipo_total.csv", header=TRUE, sep=";",dec=",")
